@@ -1,0 +1,81 @@
+@(title: String)(content: Html)
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/styles.css")"> 
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+    <body onload="makeTableScroll();">
+
+        <div id="logo">
+			<h2> CASINO BACKEND SYSTEM </h2>
+		</div>
+
+		<div id="menu">
+			<h2>Navigation Menu</h2>
+			<ul>
+				<li class="active"><a href="index.html">Table Data</a></li>
+				<li><a href="aboutus.html">Daily Report</a></li>
+				<li><a href="products.html">Game Reports</a></li>
+				<li><a href="contact.html">Cash Reports</a></li>
+			</ul>
+		</div>
+
+    @content
+
+    </body>
+    <script>
+
+    	function myFunction(myInput,myTable,myIndex) {		  
+		  var input, filter, table, tr, td, i;
+		  input = document.getElementById(myInput);
+		  filter = input.value.toUpperCase();
+		  table = document.getElementById(myTable);
+		  tr = table.getElementsByTagName("tr");
+
+		  // Loop through all table rows, and hide those who don't match the search query
+		  for (i = 0; i < tr.length; i++) {
+		    td = tr[i].getElementsByTagName("td")[myIndex];
+		    if (td) {
+		      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+		        tr[i].style.display = "";
+		      } else {
+		        tr[i].style.display = "none";
+		      }
+		    }
+		  }
+		}
+
+		function makeTableScroll() {
+            // Constant retrieved from server-side via JSP
+            var maxRows = 20;
+
+            var table = document.getElementById('table-normal-darkblue');
+            var wrapper = table.parentNode;
+            var rowsInTable = table.rows.length;
+            var height = 0;
+            if (rowsInTable > maxRows) {
+                for (var i = 0; i < maxRows; i++) {
+                    height += table.rows[i].clientHeight;
+                }
+                wrapper.style.height = height + "px";
+            }
+        }
+
+	</script>
+
+    <script src="@routes.Assets.versioned("compiled/bundle.js")" ></script>
+    <script src="@routes.Assets.versioned("compiled/jquery.min.js")"></script>
+
+    <script type="text/javascript" src="@routes.Assets.versioned("compiled/tableExport.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jquery.base64.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/html2canvas.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/libs/sprintf.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/jspdf.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/libs/base64.js")"></script>
+
+</html>

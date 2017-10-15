@@ -1,0 +1,168 @@
+@()
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/styles.css")"> 
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+    <body onload="makeTableScroll();">
+
+        <div id="logo">
+			<h2> CASINO BACKEND SYSTEM </h2>
+		</div>
+
+		<div id="menu">
+			<h2>Navigation Menu</h2>
+			<ul>
+				<li class="active"><a href="index.html">Table Data</a></li>
+				<li><a href="aboutus.html">Daily Report</a></li>
+				<li><a href="products.html">Game Reports</a></li>
+				<li><a href="contact.html">Cash Reports</a></li>
+			</ul>
+		</div>
+	
+		<div id="body">
+
+		
+			@table(mystyle: String,caption: String, hlist: List[Any],slist: List[Any],dlists: List[List[Any]] ) = {
+				<div class="scrollingTable">
+					<table id=@mystyle>
+					<div>
+						@slist.zipWithIndex.map{ case (e, i) => @if(!e.toString.isEmpty) {
+							<input type="text" id=@mystyle@e onkeyup="myFunction('@mystyle@e','@mystyle',@i)" placeholder=@e... title="Search For a @e">
+							}
+						}
+
+					</div>
+					<caption>@caption</caption>
+						<tr>
+							@hlist.map { e =>
+								<th>@e</th>
+							}
+
+						</tr>
+
+						@dlists.map { dlist =>
+							<tr>
+								@dlist.map { e =>
+									<td>@e</td>
+								}
+							</tr>		
+
+						}
+
+					</table>
+				</div>
+				<div class="downloadButtons">
+				    <button class= "button--pill" onClick ="$('#@mystyle').tableExport({type:'excel',tableName:'@caption',escape:'false'});">
+				         Save As Excel
+				    </button>
+				    <button class= "button--pill" onClick ="$('#@mystyle').tableExport({type:'pdf',pdfLeftMargin:2,pdfFontSize:'7',tableName:'TableData',escape:'false'});">
+				         Save As PDF
+				    </button>
+				    <button class= "button--pill" onClick ="$('#@mystyle').tableExport({type:'png',tableName:'@caption',escape:'false'});">
+				         Save As PNG
+				    </button>
+				        <button class= "button--pill" onClick ="$('#@mystyle').tableExport({type:'csv',tableName:'@caption',escape:'false'});">
+				         Save As CSV
+				    </button>
+			    </div>
+			}
+
+		@{	
+			
+			val mystyle : String = "table-normal-darkblue"
+			val caption : String = "Electronic Table Atomic Data"
+			val hlist : List[String] = List("Date","Start","End","Table","Game","Dealer","Win","Rake","Commision") 
+			val slist : List[String] = List("Date","","","Table","Game","Dealer","Win","Rake","") 
+			val dlists : List[List[String]] = List(List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200"),
+												 List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200"),
+												 List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200"),
+												 List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200"),
+												 List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200"),
+												 List("2017/10/08","01:14","01:18","0001","TeenPatti","007","1000","5","50"),
+												 List("2017/10/08","01:20","01:25","0001","TeenPatti","007","2000","5","100"),
+												 List("2017/10/08","01:30","01:35","0001","TeenPatti","007","3000","5","150"),
+												 List("2017/10/08","01:45","02:00","0001","TeenPatti","007","4000","5","200")
+												) 
+
+			
+			table(mystyle,caption,hlist,slist,dlists)
+
+		}
+
+
+
+		</div>
+
+
+		<script>
+			function myFunction(myInput,myTable,myIndex) {		  
+			  var input, filter, table, tr, td, i;
+			  input = document.getElementById(myInput);
+			  filter = input.value.toUpperCase();
+			  table = document.getElementById(myTable);
+			  tr = table.getElementsByTagName("tr");
+
+			  // Loop through all table rows, and hide those who don't match the search query
+			  for (i = 0; i < tr.length; i++) {
+			    td = tr[i].getElementsByTagName("td")[myIndex];
+			    if (td) {
+			      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			        tr[i].style.display = "";
+			      } else {
+			        tr[i].style.display = "none";
+			      }
+			    }
+			  }
+			}
+
+			function makeTableScroll() {
+	            // Constant retrieved from server-side via JSP
+	            var maxRows = 20;
+
+	            var table = document.getElementById('table-normal-darkblue');
+	            var wrapper = table.parentNode;
+	            var rowsInTable = table.rows.length;
+	            var height = 0;
+	            if (rowsInTable > maxRows) {
+	                for (var i = 0; i < maxRows; i++) {
+	                    height += table.rows[i].clientHeight;
+	                }
+	                wrapper.style.height = height + "px";
+	            }
+	        }
+
+		</script>
+
+    </body>
+    <script src="@routes.Assets.versioned("compiled/bundle.js")" ></script>
+    <script src="@routes.Assets.versioned("compiled/jquery.min.js")"></script>
+
+    <script type="text/javascript" src="@routes.Assets.versioned("compiled/tableExport.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jquery.base64.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/html2canvas.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/libs/sprintf.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/jspdf.js")"></script>
+	<script type="text/javascript" src="@routes.Assets.versioned("compiled/jspdf/libs/base64.js")"></script>
+
+</html>

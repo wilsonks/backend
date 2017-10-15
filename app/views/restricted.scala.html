@@ -1,0 +1,53 @@
+@(user: model.User)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Restricted</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/styles.css")"> 
+        <link rel="stylesheet" href="@routes.Assets.versioned("compiled/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+    <body>
+
+        <div id="logo">
+			<h2> CASINO BACKEND SYSTEM </h2>
+		</div>
+
+		<div id="menu">
+			<h2>Navigation Menu</h2>
+			<ul>
+				<li class="active"><a href="index.html">Table Data</a></li>
+				<li><a href="aboutus.html">Daily Report</a></li>
+				<li><a href="products.html">Game Report</a></li>
+				<li><a href="contact.html">Rake Report</a></li>
+			</ul>
+		</div>
+
+		<script>
+			function myFunction() {		  
+			  var input, filter, table, tr, td, i;
+			  input = document.getElementById("myInput");
+			  filter = input.value.toUpperCase();
+			  table = document.getElementById("myTable");
+			  tr = table.getElementsByTagName("tr");
+
+			  // Loop through all table rows, and hide those who don't match the search query
+			  for (i = 0; i < tr.length; i++) {
+			    td = tr[i].getElementsByTagName("td")[0];
+			    if (td) {
+			      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			        tr[i].style.display = "";
+			      } else {
+			        tr[i].style.display = "none";
+			      }
+			    }
+			  }
+			}
+		</script>
+
+		<!--
+        <h1>Hello @user.userCode</h1>
+        <div>Your id is @user.userId</div>
+        -->
+    </body>
+</html>
