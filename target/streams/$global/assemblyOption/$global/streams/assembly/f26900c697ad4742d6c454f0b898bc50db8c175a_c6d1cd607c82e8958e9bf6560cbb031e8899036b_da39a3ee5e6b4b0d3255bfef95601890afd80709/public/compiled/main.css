@@ -1,0 +1,358 @@
+/*
+Design by Maa Designs
+http://www.maadesigns.co.uk
+*/
+
+body {
+	font-family: tahoma, sans-serif;
+	font-size: 12px;
+}
+
+.scrollingTable {
+    overflow-y: auto;
+}
+
+.scrollingTable input {
+  background-image: url('..	/images/search-button2.png');
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  width: 7%;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  text-align:right;
+}
+
+.downloadButtons {
+	margin-top:8px;
+    text-align:right;
+}
+
+/* ------------------------------------------ */
+
+
+#table-normal-black-orange table {
+	border-collapse: collapse;
+	padding: 10px;
+	border-radius: 13px; 
+  	border-spacing: 0;
+
+  	margin-top:10pt;
+  	table-layout: fixed;
+  	width: 100%;
+}																																																																					
+
+#table-normal-black-orange td, th {
+	border: 1px solid orange;
+	font-family: tahoma, sans-serif;
+	font-size: 12px;
+
+    padding: 3px;
+    text-align: center;
+}
+
+#table-normal-black-orange th {
+	padding:0px;
+}
+
+#table-normal-black-orange caption {
+
+	font-family: "Helvetica", "Arial", sans-serif;
+    font-style: bold;
+    font-size: 17px;
+
+	text-align:left;
+	background-color: orange;
+    color: black;
+    padding:0px;
+}
+
+#table-normal-black-orange th {
+	background-color: black;
+    color: orange;
+}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+
+#table-normal-darkpink table {
+	border-collapse: collapse;
+	padding: 10px;
+	border-radius: 13px; 
+  	border-spacing: 0;
+
+  	margin-top:10pt;
+  	table-layout: fixed;
+  	width: 100%;
+}																																																																					
+
+#table-normal-darkpink td, th {
+	border: 1px solid black;
+	font-family: tahoma, sans-serif;
+	font-size: 12px;
+
+    padding: 3px;
+    text-align: center;
+	word-wrap: break-word;
+
+}
+
+#table-normal-darkpink th {
+	padding:0px;
+}
+
+#table-normal-darkpink caption {
+
+	font-family: "Helvetica", "Arial", sans-serif;
+    font-style: bold;
+    font-size: 17px;
+
+	text-align:left;
+	background-color: #dab1d5;
+    color: #6C3365;
+    padding:0px;
+}
+
+#table-normal-darkpink th {
+	background-color: #6C3365;
+    color: #dab1d5;
+}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+
+
+#table-normal-darkblue {
+	border-collapse: collapse;
+	padding: 10px;
+	border-radius: 13px; 
+  	border-spacing: 0;
+
+  	margin-top:10pt;
+  	table-layout: fixed;
+  	width: 100%;	
+}																																																																					
+
+
+
+#table-normal-darkblue td, th {
+	border: 1px solid black;
+	font-family: tahoma, sans-serif;
+	font-size: 9px;
+
+    padding: 3px;
+    text-align: center;
+}
+
+#table-normal-darkblue th {
+	padding:0px;
+}
+
+#table-normal-darkblue caption {
+
+	font-family: "Helvetica", "Arial", sans-serif;
+    font-style: bold;
+    font-size: 17px;
+
+	text-align:left;
+	background-color: #d8d8eb;
+    color: #484891;
+    padding:0px;
+}
+
+#table-normal-darkblue th {
+	background-color: #484891;
+    color: #d8d8eb;
+}
+
+/* ------------------------------------------ */
+
+#tb2 table {
+  border: 1px solid DarkOrange;
+  border-radius: 13px; 
+  border-spacing: 0;
+}																																																																					
+
+#tb2 td, th {  
+	border-bottom: 1px solid DarkOrange;
+    padding: 10px; 
+    text-align: center;
+}
+
+#tb2  tr:last-child > td {
+  border-bottom: none;
+}
+
+#tb2  tr:first-child > th {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+#tb2 th {
+    /*color: rgb(98,136,182); */
+    color: rgb(0,155,255);
+}
+
+
+#tb3 table {
+  border: 1px solid black;
+  border-radius: 13px; 
+  border-spacing: 0;
+}																																																																					
+
+#tb3 td, th {  
+	border-bottom: 1px solid black;
+    padding: 10px; 
+    text-align: center;
+}
+
+#tb3  tr:last-child > td {
+  border-bottom: none;
+}
+
+#tb3  tr:first-child > th {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+#tb3 th {
+    /*color: rgb(98,136,182); */
+    color: rgb(0,155,255);
+}
+
+/* Header */
+
+#logo {
+	width: 100%;
+	height: 75px;
+	margin: 0 auto;
+	padding: 35px 0 0 0;
+	background: #FFEE8F url(../images/bigbg.gif) repeat-x;
+	border: 5px solid #FFFFFF;
+	border-bottom: none;
+}
+
+#logo h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+#logo h2 {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #9E6813;
+}
+
+/* Menu */
+
+#menu {
+	width: 100%;
+	height: 46px;
+	margin: 0 auto;
+	padding: 0;
+	background: #4E4E4E;
+	border: 5px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;;
+}
+
+#menu h2 {
+	display: none;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 98px;
+	height: 36px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+#menu a:hover, #menu .active a {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/* Splash */
+
+#image {
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-left: 5px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
+}
+
+/* Content */
+
+#body {
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border: 5px solid #FFFFFF;
+}
+
+#body .title {
+	padding: 10px 20px;
+	background: #FFEE8E url(../images/smallbg.gif) repeat-x left bottom;
+	font-size: 1em;
+}
+
+#body .story {
+	padding: 20px;
+	border: 2px solid #FFEE8E;
+}
+
+/* bot*/
+
+#bot {
+	width: 760px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background: #4E4E4E;
+	border: 5px solid #FFFFFF;
+	border-top: none;
+}
+
+#bot p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: x-small;
+	color: #CCCCCC;
+}
+
+#bot a {
+	color: #CCCCCC;
+}
+
+
+#div-login {
+   display: table;
+   width: 350px;
+   vertical-align: middle;
+   margin-top: 200px;
+   margin-right: auto;
+   margin-left:auto;
+   font-size: 130%;
+}

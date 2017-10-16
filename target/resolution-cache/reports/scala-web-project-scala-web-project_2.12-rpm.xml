@@ -6,8 +6,8 @@
 		module="scala-web-project_2.12"
 		revision="1.0-SNAPSHOT"
 		conf="rpm"
-		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, ensime-internal"
-		date="20171015154056"/>
+		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171015161926"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

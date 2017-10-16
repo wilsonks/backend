@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: cachecontrol
+Implementation-Version: 1.1.2
+Specification-Vendor: com.typesafe.play
+Specification-Title: cachecontrol
+Implementation-Vendor-Id: com.typesafe.play
+Specification-Version: 1.1.2
+Vcs-Release-Tag: v1.1.2
+Implementation-Vendor: com.typesafe.play
+Vcs-Release-Hash: 94ef87cb22af8b9313728388410d28121deb5d63
+

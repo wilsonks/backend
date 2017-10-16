@@ -1,0 +1,361 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/wilson/workspace1/backend/target/scala-2.12/test-classes
+compile options:
+30 items
+00 -> -sourcepath
+01 -> /home/wilson/workspace1/backend/
+02 -> -deprecation
+03 -> -unchecked
+04 -> -encoding
+05 -> utf8
+06 -> -Xlint:adapted-args
+07 -> -Xlint:nullary-unit
+08 -> -Xlint:inaccessible
+09 -> -Xlint:nullary-override
+10 -> -Xlint:infer-any
+11 -> -Xlint:missing-interpolator
+12 -> -Xlint:doc-detached
+13 -> -Xlint:private-shadow
+14 -> -Xlint:type-parameter-shadow
+15 -> -Xlint:poly-implicit-overload
+16 -> -Xlint:option-implicit
+17 -> -Xlint:delayedinit-select
+18 -> -Xlint:by-name-right-associative
+19 -> -Xlint:package-object-classes
+20 -> -Xlint:unsound-match
+21 -> -unchecked
+22 -> -deprecation
+23 -> -feature
+24 -> -language:higherKinds
+25 -> -language:implicitConversions
+26 -> -language:experimental.macros
+27 -> -Ywarn-inaccessible
+28 -> -Xexperimental
+29 -> -Ywarn-unused-import
+javac options:
+7 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -encoding
+5 -> utf8
+6 -> -g
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/workspace1/backend/target/scala-2.12/test-classes/ApplicationSpec.class
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/workspace1/backend/target/scala-2.12/test-classes/TestAppComponents.class
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/workspace1/backend/target/scala-2.12/test-classes/WeatherServiceSpec.class
+binary dependencies:
+17 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/jars/play-ahc-ws_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.7.22.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /home/wilson/.ivy2/cache/org.scalatestplus.play/scalatestplus-play_2.12/jars/scalatestplus-play_2.12-3.1.2.jar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/com.softwaremill.macwire/macros_2.12/jars/macros_2.12-2.3.0.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/jars/play-ahc-ws_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.5.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> /home/wilson/.ivy2/cache/org.scalatestplus.play/scalatestplus-play_2.12/jars/scalatestplus-play_2.12-3.1.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+3 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> model.SunInfo
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> services.SunService
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> services.WeatherService
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ApplicationSpec
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> TestAppComponents
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> WeatherServiceSpec
+used names:
+195 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> +
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> <byname>
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> <init>
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> <repeated>
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> AhcWSRequest
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Any
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> AnyRef
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ApplicationSpec
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Assertion
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Class
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ClassTag
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> DateTimeFormatter
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Double
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Function1
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Future
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> FutureConcept
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Instant
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Int
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> JsValue
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Json
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Long
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Mockito
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> MockitoSugar
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Nothing
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> OngoingStubbing
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> PatienceConfig
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> PlaySpec
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Position
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Predef
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Prettifier
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Response
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ScalaFutures
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> String
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> StringContext
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> StringMustWrapper
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> StringVerbBlockRegistration
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> SunInfo
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> SunService
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> T
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> U
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> Unit
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> WSClient
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> WSRequest
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> WSResponse
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> WordSpecStringWrapper
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ZoneId
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ZonedDateTime
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> _$7
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ahc
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> api
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> apply
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> beginning
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> concurrent
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> convertScalaFuture
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> convertToStringMustWrapper
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> convertToWordSpecStringWrapper
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> default
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> expectedResponse
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> format
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> formattedYear
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> get
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> getSunInfo
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> here
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> in
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> java
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> jsResult
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> json
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> lat
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> libs
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> lon
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> materializeClassTag
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> mock
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> mockito
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> must
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> mustBe
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ofEpochSecond
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ofInstant
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ofPattern
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> org
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> package
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> parse
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> patienceConfig
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> play
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> reflect
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> res
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> resultF
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> s
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> scala
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> scalactic
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> scalatest
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> scalatestplus
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> services
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> source
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> subjectRegistrationFunction
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> successful
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> sunService
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> sunrise
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> sunset
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> systemDefault
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> thenReturn
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> time
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> url
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> when
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> whenReady
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> ws
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> wsClientStub
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> wsRequestStub
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> wsResponseStub
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> <=
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> <byname>
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> <init>
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> >=
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> AhcWSComponents
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Any
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> AnyMustWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ApplicationLoader
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Assertion
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> BuiltInComponentsFromContext
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Context
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Double
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Function1
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Future
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> FutureConcept
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Int
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Long
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> NoHttpFiltersComponents
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Nothing
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> OneAppPerSuiteWithComponents
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Ordering
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> PatienceConfig
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> PlaySpec
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Position
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Predef
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Prettifier
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ResultOfGreaterThanOrEqualToComparison
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ResultOfLessThanOrEqualToComparison
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Router
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ScalaFutures
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Seconds
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Span
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> String
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> StringMustWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> StringVerbBlockRegistration
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> T
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> TestAppComponents
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> U
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Unit
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> Units
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> WSClient
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> WeatherService
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> WeatherServiceSpec
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> WordSpecStringWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ahc
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> api
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> apply
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> com
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> components
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> concurrent
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> context
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> convertScalaFuture
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> convertToAnyMustWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> convertToStringMustWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> convertToWordSpecStringWrapper
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> default
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> empty
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> getTemperature
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> here
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> in
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> lat
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> libs
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> lon
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> macwire
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> math
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> must
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> mustBe
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> org
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> package
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> patienceConfig
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> play
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> result
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> resultF
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> routing
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> scalactic
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> scalatest
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> scalatestplus
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> services
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> softwaremill
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> source
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> subjectRegistrationFunction
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> time
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> weatherService
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> whenReady
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> wire
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> ws
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> wsClient
+product stamps:
+3 items
+/home/wilson/workspace1/backend/target/scala-2.12/test-classes/ApplicationSpec.class -> lastModified(1508080904000)
+/home/wilson/workspace1/backend/target/scala-2.12/test-classes/TestAppComponents.class -> lastModified(1508080904000)
+/home/wilson/workspace1/backend/target/scala-2.12/test-classes/WeatherServiceSpec.class -> lastModified(1508080904000)
+source stamps:
+2 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> hash(74619f7e3cb451c20d51fd9bdde25b131f1a7243)
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> hash(af65f9a5f976c09cc9e3bc00812afba989087cb3)
+binary stamps:
+11 items
+/home/wilson/.ivy2/cache/com.softwaremill.macwire/macros_2.12/jars/macros_2.12-2.3.0.jar -> lastModified(1486036509000)
+/home/wilson/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/jars/play-ahc-ws_2.12-2.6.5.jar -> lastModified(1505426996000)
+/home/wilson/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.5.jar -> lastModified(1505419297000)
+/home/wilson/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.6.5.jar -> lastModified(1505426950000)
+/home/wilson/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.5.jar -> lastModified(1505427031000)
+/home/wilson/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.7.22.jar -> lastModified(1491576156000)
+/home/wilson/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+/home/wilson/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar -> lastModified(1502983759000)
+/home/wilson/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar -> lastModified(1502984016000)
+/home/wilson/.ivy2/cache/org.scalatestplus.play/scalatestplus-play_2.12/jars/scalatestplus-play_2.12-3.1.2.jar -> lastModified(1505505100000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1501190804000)
+class names:
+11 items
+/home/wilson/.ivy2/cache/com.softwaremill.macwire/macros_2.12/jars/macros_2.12-2.3.0.jar -> com.softwaremill.macwire.package$
+/home/wilson/.ivy2/cache/com.typesafe.play/play-ahc-ws_2.12/jars/play-ahc-ws_2.12-2.6.5.jar -> play.api.libs.ws.ahc.AhcWSComponents
+/home/wilson/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.5.jar -> play.api.libs.json.Json
+/home/wilson/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.6.5.jar -> play.api.libs.ws.WSClient
+/home/wilson/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.5.jar -> play.api.NoHttpFiltersComponents
+/home/wilson/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.7.22.jar -> org.mockito.Mockito
+/home/wilson/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Function1
+/home/wilson/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar -> org.scalactic.Prettifier
+/home/wilson/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar -> org.scalatest.concurrent.ScalaFutures
+/home/wilson/.ivy2/cache/org.scalatestplus.play/scalatestplus-play_2.12/jars/scalatestplus-play_2.12-3.1.2.jar -> org.scalatestplus.play.components.OneAppPerSuiteWithComponents
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.time.Instant
+internal apis:
+2 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwdRd72AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAABBzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDtr2z0dAAjY29udmVydFRvU3RyaW5nU2hvdWxkV3JhcHBlckZvclZlcmJzcQB+AAvjiq7QdAAaY29udmVydFRvU3RyaW5nTXVzdFdyYXBwZXJzcQB+AAtrkYiLdAAZY29udmVydFRvU3RyaW5nQ2FuV3JhcHBlcnNxAH4AC2dr0AB0AB5jb252ZXJ0VG9Xb3JkU3BlY1N0cmluZ1dyYXBwZXJzcQB+AAstGwoHdAASY29udmVydFNjYWxhRnV0dXJlc3EAfgALhE+153QAImNvbnZlcnROdW1lcmljVG9QbHVzT3JNaW51c1dyYXBwZXJzcQB+AAvte250dAAXY29udmVydFRvQW55TXVzdFdyYXBwZXJzcQB+AAtTI5vvdAASY29udmVydFRvRXF1YWxpemVyc3EAfgALdo9myHQAKHN1YmplY3RXaXRoQWZ0ZXJXb3JkUmVnaXN0cmF0aW9uRnVuY3Rpb25zcQB+AAsBC4L3dAAXY29udmVydE9wdGlvblRvVmFsdWFibGVzcQB+AAsj8FgidAAVY29udmVydFRvUmVnZXhXcmFwcGVyc3EAfgALNy9MM3QAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC59cU1x0ACFjb252ZXJ0VG9TdHJpbmdNdXN0V3JhcHBlckZvclZlcmJzcQB+AAuRq4vMdAAOcGF0aWVuY2VDb25maWdzcQB+AAslqYg+dAArY29udmVydFN5bWJvbFRvSGF2ZVByb3BlcnR5TWF0Y2hlckdlbmVyYXRvcnNxAH4AC9O8CBx0ABtzdWJqZWN0UmVnaXN0cmF0aW9uRnVuY3Rpb251cQB+AAkAAAEFc3EAfgALa3yPdHQAC2luT3JkZXJPbmx5c3EAfgALgjMpT3QABmFzc2VydHNxAH4AC79Fs6F0AB5SZXN1bHRPZlN0YXJ0V2l0aFdvcmRGb3JTdHJpbmdzcQB+AAvpoU2LdAAHc3VjY2VlZHNxAH4AC0U+pVd0ABJQbHVzT3JNaW51c1dyYXBwZXJzcQB+AAtMrLLAdAAGbm90aWZ5c3EAfgALs9j+8nQADGpzQWRqdXN0bWVudHNxAH4AC/0Zv/90ACZsb3dQcmlvcml0eUNvbnZlcnNpb25DaGVja2VkQ29uc3RyYWludHNxAH4AC5Ycm1l0AAd1bmFwcGx5c3EAfgAL+J3LuXQAFVdvcmRTcGVjU3RyaW5nV3JhcHBlcnNxAH4AC+2SdqF0AAVyZWdleHNxAH4AC1WugXd0AAZBbldvcmRzcQB+AAt5YLwRdAAHY3VycmllZHNxAH4AC98d0rl0ABBBc3NlcnRpb25zSGVscGVyc3EAfgALj8HjfHQABmNhbmNlbHNxAH4AC8jnnZZ0ABFleGVjdXRlJGRlZmF1bHQkMnNxAH4AC4LrKq10AAlpbnRlcmNlcHRzcQB+AAszN80JdAAEZmFpbHNxAH4ACyOoAC10AARuYW1lc3EAfgAL+xEZlXQAAmluc3EAfgALlK9QhnQAHEhhdmVQcm9wZXJ0eU1hdGNoZXJHZW5lcmF0b3JzcQB+AAtjB2K0dAAFQVdvcmRzcQB+AAv8hJVQdAAEaGF2ZXNxAH4AC8A36Yd0ABRhc3NlcnREb2VzTm90Q29tcGlsZXNxAH4AC+CoPY10ABFleGVjdXRlJGRlZmF1bHQkNHNxAH4ACxPuJGx0ACJSZXN1bHRPZkNvbnRhaW5Xb3JkRm9yQ29sbGVjdGVkQW55c3EAfgALQWg10HQAAmlzc3EAfgALrlrtF3QAB2V4ZWN1dGVzcQB+AAu4k2P9dAAEd2FpdHNxAH4AC8h3EVJ0AA5EZXRlcm1pbmVkV29yZHNxAH4AC4nodXl0AAt0ZXN0RGF0YUZvcnNxAH4AC8LJpBF0ABNjcmVhdGVDYXRjaFJlcG9ydGVyc3EAfgALKbJKcnQAAjw9c3EAfgAL0lR7JXQACXN0eWxlTmFtZXNxAH4AC9zQ7290AARtb2Nrc3EAfgALu54cgXQADWxlZnRTaWRlVmFsdWVzcQB+AAuIB20edAATYXRMZWFzdE9uZUVsZW1lbnRPZnNxAH4AC/iUSsp0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC/wPq+R0AA0kYXNJbnN0YW5jZU9mc3EAfgALyn2woHQABWVtcHR5c3EAfgALfAQ8LHQACXN0YXJ0V2l0aHNxAH4AC4/ciCR0AARzaXplc3EAfgALqi7aonQAEWV4ZWN1dGUkZGVmYXVsdCQzc3EAfgALZGe4S3QACmlzQ2FuY2VsZWRzcQB+AAs7koh7dAAUUmVzdWx0T2ZDb2xsZWN0ZWRBbnlzcQB+AAtXy2dEdAANYWxsRWxlbWVudHNPZnNxAH4AC2CCzQV0AAVleGlzdHNxAH4AC01cedB0AAlBZnRlcldvcmRzcQB+AAuB2uaJdAAQPGluaXQ+JGRlZmF1bHQkMXNxAH4AC3od6ll0AAljb25maWdNYXBzcQB+AAsWc379dAAMcHJvZHVjdEFyaXR5c3EAfgALqudvjXQACVZhbHVlV29yZHNxAH4AC654sbZ0AAZlcXVhbHNzcQB+AAtsf0sGdAAMYXRMZWFzdE9uZU9mc3EAfgALKYW3PnQAB2F0TGVhc3RzcQB+AAuCRZukdAAIdGhyb3duQnlzcQB+AAvqmSKqdAAsY29udmVydEVxdWl2YWxlbmNlVG9BVG9CQ29udmVyc2lvbkNvbnN0cmFpbnRzcQB+AAvnxBzzdAAPZGVmYXVsdEVxdWFsaXR5c3EAfgALTT2O8XQAImNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnN0cmFpbnRzcQB+AAtSZcaodAAcUmVzdWx0T2ZFbmRXaXRoV29yZEZvclN0cmluZ3NxAH4ACypY6et0AARtdXN0c3EAfgALSPuKGXQAA2FsbHNxAH4AC744ddB0AAR0YWdzc3EAfgALA2kz/XQADGFzSW5zdGFuY2VPZnNxAH4AC8pEQQ90AAE8c3EAfgAL0rR0JHQABWFsZXJ0c3EAfgALuR9P1nQAB2luT3JkZXJzcQB+AAtldLv4dAAKcHJldHRpZmllcnNxAH4AC0Q9pFB0AANydW5zcQB+AAu6ntytdAARRGVjaWRlZEJ5RXF1YWxpdHlzcQB+AAv1+oTCdAAFZXZlcnlzcQB+AAsGrBpOdAAGc2NvcGVzc3EAfgALzByPvHQAA3Bvc3NxAH4AC7F4qDF0AAp3aXRoR3JvdXBzc3EAfgALXFI9rHQADHN5bmNocm9uaXplZHNxAH4ACxt3YTZ0AAJpdHNxAH4AC4HWeGJ0AAdLZXlXb3Jkc3EAfgAL5MCi1HQAEXRoZVNhbWVFbGVtZW50c0Fzc3EAfgALVhqMw3QADmFzc2VydENvbXBpbGVzc3EAfgAL5Zqx4HQACmRldGVybWluZWRzcQB+AAsdnhXadAABYXNxAH4AC9OT9U90AAxhc3NlcnRUaHJvd3NzcQB+AAtoR6ENdAAObGVmdFNpZGVTdHJpbmdzcQB+AAsBLwWJdAANJGlzSW5zdGFuY2VPZnNxAH4AC8ANhJp0AAR0cmFwc3EAfgALAnCL33QAFXRlc3REYXRhRm9yJGRlZmF1bHQkMnNxAH4AC2eVeiR0AAxhc3NlcnRSZXN1bHRzcQB+AAsyFX3cdAAeUmVzdWx0T2ZOb3RXb3JkRm9yQ29sbGVjdGVkQW55c3EAfgALJlf6gHQAAj49c3EAfgALnJXldnQADG9uZUVsZW1lbnRPZnNxAH4ACwtWIQ10AAZ0dXBsZWRzcQB+AAuFFeZKdAAXU3RyaW5nQ2FuV3JhcHBlckZvclZlcmJzcQB+AAvz5atvdAAEdGV4dHNxAH4ACxBMSH10ACVSZXN1bHRPZkluY2x1ZGVXb3JkRm9yQ29sbGVjdGVkU3RyaW5nc3EAfgALGP+GWHQALGNvbnZlcnRFcXVpdmFsZW5jZVRvQlRvQUNvbnZlcnNpb25Db25zdHJhaW50c3EAfgALL4pv8XQACGNhbkVxdWFsc3EAfgALfuGx9HQAB2NvbnRhaW5zcQB+AAuyMBkLdAAEdGhleXNxAH4AC17c/ch0AAdjb21waWxlc3EAfgALDsweNHQAEWV4ZWN1dGUkZGVmYXVsdCQ3c3EAfgALHWyPKHQAB2V4YWN0bHlzcQB+AAt6sVzedAARdGhlU2FtZUluc3RhbmNlQXNzcQB+AAsPrMPodAANcHJvZHVjdFByZWZpeHNxAH4AC04mMIR0ACdSZXN1bHRPZlN0YXJ0V2l0aFdvcmRGb3JDb2xsZWN0ZWRTdHJpbmdzcQB+AAtHcpegdAARaW5PcmRlckVsZW1lbnRzT2ZzcQB+AAt+e7qNdAALRGVjaWRlZFdvcmRzcQB+AAu3SxPGdAAVdHlwZUNoZWNrZWRDb25zdHJhaW50c3EAfgALHDIiOnQAAyE9PXNxAH4AC2YXrZZ0AAtmdXR1cmVWYWx1ZXNxAH4AC+sCt5B0AAZhdE1vc3RzcQB+AAuoDYAYdAAEaW5mb3NxAH4AC9ExFdx0AAtub0V4Y2VwdGlvbnNxAH4AC+Wpb6h0AA9mdXR1cmVWYWx1ZUltcGxzcQB+AAv1VYtZdAAJbm90aWZ5QWxsc3EAfgALFr2jRnQABHRoYXRzcQB+AAsnZtubdAAKc3RhY2tEZXB0aHNxAH4ACwi5cR90AAt3aXRoRml4dHVyZXNxAH4ACzdwWVF0AAltdXN0RXF1YWxzcQB+AAu8GJjUdAAHcnVuVGVzdHNxAH4AC7WIwsZ0AB1SZXN1bHRPZkJlV29yZEZvckNvbGxlY3RlZEFueXNxAH4AC+zD2bN0AANrZXlzcQB+AAvqmuOhdAAMaXNJbnN0YW5jZU9mc3EAfgALW8r//XQACHdpdGhDbHVlc3EAfgALSt0wmHQAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAtlk/U6dAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAtxkG6gdAAFd3NVcmxzcQB+AAtN9tLtdAAIVmFsdWFibGVzcQB+AAvALz1adAAIdGFnZ2VkQXNzcQB+AAteAaaIdAAPYXNzZXJ0VHlwZUVycm9yc3EAfgALhxYckXQAJVJlc3VsdE9mRW5kV2l0aFdvcmRGb3JDb2xsZWN0ZWRTdHJpbmdzcQB+AAv5SyU9dAAGbWFya3Vwc3EAfgALzleiz3QACGxlZnRTaWRlc3EAfgALZ2V28nQABjxpbml0PnNxAH4AC+/ddkx0AAttYWNyb0Fzc3VtZXNxAH4ACwcbjDp0AA9ydW5OZXN0ZWRTdWl0ZXNzcQB+AAsk4jyBdAAIaW50ZXJ2YWxzcQB+AAsx/8LbdAAZUmVzdWx0T2ZIYXZlV29yZEZvckV4dGVudHNxAH4AC3X6oXV0AANjYW5zcQB+AAsEKykSdAAPYXBwbHkkZGVmYXVsdCQyc3EAfgALwaPyO3QABWJlaW5nc3EAfgALoqcZLnQABWVxdWFsc3EAfgALRI71xHQABkl0V29yZHNxAH4AC/zd7WZ0AAhhcmVFcXVhbHNxAH4AC1iT6Y50AAZub25lT2ZzcQB+AAuPDH1ndAAFYXBwbHlzcQB+AAtm42uQdAAJd2l0aEdyb3Vwc3EAfgALMTgB53QABWFmdGVyc3EAfgALnXbmrHQABnNjYWxlZHNxAH4AC8QZ71N0AAlFcXVhbGl6ZXJzcQB+AAssZoIAdAAKYWZ0ZXJCZWluZ3NxAH4AC1ULgL50ACJSZXN1bHRPZlRhZ2dlZEFzSW52b2NhdGlvbk9uU3RyaW5nc3EAfgALVBZ2iHQAB211c3ROb3RzcQB+AAsJbSqxdAAbbmV3QXNzZXJ0aW9uRmFpbGVkRXhjZXB0aW9uc3EAfgALwwwDdnQABG5vdGVzcQB+AAvHupyQdAACPT1zcQB+AAu9l9e6dAACYnlzcQB+AAviRaKYdAAGc29ydGVkc3EAfgALLr3m8HQABm11c3RCZXNxAH4ACw/KQft0AApmdWxseU1hdGNoc3EAfgALRbrKqHQABWNsb25lc3EAfgALYxVT2HQABnNob3VsZHNxAH4AC4Kd8+J0ABdEZXRlcm1pbmVkQnlFcXVpdmFsZW5jZXNxAH4AC5b/QyV0AANub3RzcQB+AAsN82LDdAALZWl0aGVyVmFsdWVzcQB+AAtUSdJTdAAfUmVzdWx0T2ZCZVdvcmRGb3JDb2xsZWN0ZWRBcnJheXNxAH4AC1Nfx3d0AAlkZWZpbmVkQXRzcQB+AAsj3pG9dAAMbmVzdGVkU3VpdGVzc3EAfgALmQGNsXQABmFzc3VtZXNxAH4AC7mHPzt0AAYkaW5pdCRzcQB+AAsNWO9adAAHZGVmaW5lZHNxAH4ACzcJA1l0ACBsb3dQcmlvcml0eVR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4ACzxVJ7J0AA9BcHBsaWNhdGlvblNwZWNzcQB+AAuioU2YdAAHaW5jbHVkZXNxAH4ACyE+Zdd0AAhUaGV5V29yZHNxAH4ACz+s3E50AAxyZWdpc3RlclRlc3RzcQB+AAtCE0bIdAAJdHlwZUNoZWNrc3EAfgAL6wp41XQAEWV4ZWN1dGUkZGVmYXVsdCQ1c3EAfgALiLyMBnQABGNvcHlzcQB+AAsJHOF3dAAPYXBwbHkkZGVmYXVsdCQxc3EAfgAL5PI8O3QAAz09PXNxAH4ACx2fR6h0ABhuZXdUZXN0Q2FuY2VsZWRFeGNlcHRpb25zcQB+AAu5G4eudAAHbWVzc2FnZXNxAH4AC0EYpwB0AAZ3c0NhbGxzcQB+AAtOzg/XdAAIdG9TdHJpbmdzcQB+AAsKerE6dAAJYWZ0ZXJXb3Jkc3EAfgALhofCDnQABXdoaWNoc3EAfgALKTNv8XQACXRlc3ROYW1lc3NxAH4AC7owGiV0AA95ZU9sZGVUZXN0TmFtZXNzcQB+AAsQHUE0dAACYW5zcQB+AAvqqnKDdAAGbGVuZ3Roc3EAfgAL0V/TxXQAGFN0cmluZ011c3RXcmFwcGVyRm9yVmVyYnNxAH4AC5vQGvZ0AAl3aGVuUmVhZHlzcQB+AAuz9Z3DdAARZXhlY3V0ZSRkZWZhdWx0JDFzcQB+AAt8TqzEdAACYmVzcQB+AAszz3BIdAACIT1zcQB+AAvqXZnHdAAiUmVzdWx0T2ZIYXZlV29yZEZvckNvbGxlY3RlZEV4dGVudHNxAH4AC4ZfSUt0AB9SZXN1bHRPZkZ1bGx5TWF0Y2hXb3JkRm9yU3RyaW5nc3EAfgALBomN2nQADG1hdGNoUGF0dGVybnNxAH4AC5YRRXl0AAhnZXRDbGFzc3NxAH4ACxbypX10ABFTdHJpbmdNdXN0V3JhcHBlcnNxAH4AC4LOkGd0ABNyZWdpc3Rlcklnbm9yZWRUZXN0c3EAfgALtacSVnQABmJlaGF2ZXNxAH4ACzbixrZ0AA5jb3B5JGRlZmF1bHQkMXNxAH4ACw/lpo90AAhydW5UZXN0c3NxAH4ACx6EY0d0ABFwZW5kaW5nVW50aWxGaXhlZHNxAH4AC6yh2fR0ABJhdE1vc3RPbmVFbGVtZW50T2ZzcQB+AAvm+NoadAAYdGhlU2FtZUVsZW1lbnRzSW5PcmRlckFzc3EAfgALqLHXvnQAF1RoZVNhbWVJbnN0YW5jZUFzUGhyYXNlc3EAfgALADbyN3QADWFyZUVxdWl2YWxlbnRzcQB+AAv2/eREdAAHYmV0d2VlbnNxAH4ACxZgvth0AAdkZWNpZGVkc3EAfgALMsjuRnQAFFJlc3VsdE9mQmVXb3JkRm9yQW55c3EAfgALikp5ZXQAEWV4cGVjdGVkVGVzdENvdW50c3EAfgALQiZXvnQAB2VuZFdpdGhzcQB+AAvrctSYdAAMbm9FbGVtZW50c09mc3EAfgALcMhVRnQACHJlcnVubmVyc3EAfgAL6R9bDHQADUZ1dHVyZUNvbmNlcHRzcQB+AAucCbVWdAAJUmVnZXhXb3Jkc3EAfgALqdqUMXQADFRoZUFmdGVyV29yZHNxAH4AC5amW7x0ACJjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb25zdHJhaW50c3EAfgAL+m97RXQABW9uZU9mc3EAfgAL1dl1oHQAAm5lc3EAfgALkB8WvnQADWlzUmVhZHlXaXRoaW5zcQB+AAvk3CdPdAAOQW55TXVzdFdyYXBwZXJzcQB+AAtu4LvydAAJaXNFeHBpcmVkc3EAfgALb3b7BHQAB3RpbWVvdXRzcQB+AAvuYgUqdAACbm9zcQB+AAvU3ZS0dAAoUmVzdWx0T2ZGdWxseU1hdGNoV29yZEZvckNvbGxlY3RlZFN0cmluZ3NxAH4ACyBV9Lt0AAtkb0NvbGxlY3RlZHNxAH4AC1e2D+p0ABFDaGVja2luZ0VxdWFsaXplcnNxAH4AC+w9/Ox0AAh3cml0YWJsZXNxAH4AC2fqnpN0AAdwZW5kaW5nc3EAfgALpKFTXnQABXZhbHVlc3EAfgAL4s8+A3QABHdoZW5zcQB+AAuOD6W8dAAGaWdub3Jlc3EAfgALrJXi5HQAHFJlc3VsdE9mSW5jbHVkZVdvcmRGb3JTdHJpbmdzcQB+AAvzrqJJdAALbWFjcm9Bc3NlcnRzcQB+AAsc1fz9dAAQPGluaXQ+JGRlZmF1bHQkMnNxAH4AC1KDTBF0AAJlcXNxAH4AC/N1ZQF0ABpjb252ZXJ0VG9DaGVja2luZ0VxdWFsaXplcnNxAH4AC4Dvi3R0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAusjZljdAACb2ZzcQB+AAvIwJ+qdAACKy1zcQB+AAu5ADHZdAAPc3BhblNjYWxlRmFjdG9yc3EAfgALafEY/nQACU5vQXJnVGVzdHNxAH4AC/x4iLV0AAE+c3EAfgALEMws2HQACHJlYWRhYmxlc3EAfgALrdjAg3QAAiMjc3EAfgALK68LlnQADlBhdGllbmNlQ29uZmlnc3EAfgALnVBPk3QAGlN0cmluZ1Nob3VsZFdyYXBwZXJGb3JWZXJic3EAfgALSp3CsXQACGZpbmFsaXplc3EAfgALS9rvwHQAG2NvbnZlcnNpb25DaGVja2VkQ29uc3RyYWludHNxAH4AC9iF6mJ0AAthdE1vc3RPbmVPZnNxAH4AC2hiFQh0AAVhbGxPZnNxAH4AC0GBHNh0AA5wcm9kdWN0RWxlbWVudHNxAH4ACyrSTVN0AAhoYXNoQ29kZXNxAH4AC99ve910AAdzdWl0ZUlkc3EAfgALA3mTqnQACXN1aXRlTmFtZXNxAH4ACypDwsJ0AAxSZWdleFdyYXBwZXJzcQB+AAvYNCAPdAADdGhlc3EAfgALC6h5s3QABG9ubHlzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AYV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AlpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4CQUwACWluaGVyaXRlZHEAfgJBTAAHcGFyZW50c3EAfgJBeHEAfgJfc3EAfgJadXEAfgI8AAAAAHNxAH4CWnVxAH4CPAAAAABzcQB+Alp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAIHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+Al50AAxTY2FsYUZ1dHVyZXNzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+Al5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA29yZ3NxAH4Cd3QACXNjYWxhdGVzdHNxAH4Cd3QACmNvbmN1cnJlbnRzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4CeHNxAH4Ca3QAB0Z1dHVyZXNxAH4CcXNxAH4Ca3QAFVBhdGllbmNlQ29uZmlndXJhdGlvbnEAfgJxc3EAfgJrdAAdQWJzdHJhY3RQYXRpZW5jZUNvbmZpZ3VyYXRpb25xAH4CcXNxAH4Ca3QAD1NjYWxlZFRpbWVTcGFuc3EAfgJxc3EAfgJrdAAMTW9ja2l0b1N1Z2Fyc3EAfgJvc3EAfgJydXEAfgJ1AAAABHNxAH4Cd3QAA29yZ3NxAH4Cd3QACXNjYWxhdGVzdHNxAH4Cd3QAB21vY2tpdG9xAH4CgHNxAH4Ca3QACFBsYXlTcGVjc3EAfgJvc3EAfgJydXEAfgJ1AAAABHNxAH4Cd3QAA29yZ3NxAH4Cd3QADXNjYWxhdGVzdHBsdXNzcQB+And0AARwbGF5cQB+AoBzcQB+Amt0ABFXc1NjYWxhVGVzdENsaWVudHEAfgKWc3EAfgJrdAAMT3B0aW9uVmFsdWVzc3EAfgJvc3EAfgJydXEAfgJ1AAAAA3NxAH4Cd3QAA29yZ3NxAH4Cd3QACXNjYWxhdGVzdHEAfgKAc3EAfgJrdAAMTXVzdE1hdGNoZXJzcQB+AqNzcQB+Amt0AApFeHBsaWNpdGx5c3EAfgJvc3EAfgJydXEAfgJ1AAAAA3NxAH4Cd3QAA29yZ3NxAH4Cd3QACXNjYWxhY3RpY3EAfgKAc3EAfgJrdAAMTWF0Y2hlcldvcmRzc3EAfgJvc3EAfgJydXEAfgJ1AAAABHNxAH4Cd3QAA29yZ3NxAH4Cd3QACXNjYWxhdGVzdHNxAH4Cd3QABXdvcmRzcQB+AoBzcQB+Amt0AAlUb2xlcmFuY2VxAH4CrnNxAH4Ca3QACFdvcmRTcGVjcQB+AqNzcQB+Amt0AAxXb3JkU3BlY0xpa2VxAH4Co3NxAH4Ca3QAC0RvY3VtZW50aW5ncQB+AqNzcQB+Amt0AAhBbGVydGluZ3EAfgKjc3EAfgJrdAAJTm90aWZ5aW5ncQB+AqNzcQB+Amt0AAlJbmZvcm1pbmdxAH4Co3NxAH4Ca3QAB0NhblZlcmJxAH4Ct3NxAH4Ca3QACE11c3RWZXJicQB+ArdzcQB+Amt0AApTaG91bGRWZXJicQB+ArdzcQB+Amt0ABBUZXN0UmVnaXN0cmF0aW9ucQB+AqNzcQB+Amt0AAlUZXN0U3VpdGVxAH4Co3NxAH4Ca3QABVN1aXRlcQB+AqNzcQB+Amt0AAxTZXJpYWxpemFibGVzcQB+Am9zcQB+AnJ1cQB+AnUAAAACc3EAfgJ3dAAFc2NhbGFxAH4CgHNxAH4Ca3EAfgLbc3EAfgJvc3EAfgJydXEAfgJ1AAAAA3NxAH4Cd3QABGphdmFzcQB+And0AAJpb3EAfgKAc3EAfgJrdAAKQXNzZXJ0aW9uc3EAfgKjc3EAfgJrdAAMVHJpcGxlRXF1YWxzcQB+Aq5zcQB+Amt0ABNUcmlwbGVFcXVhbHNTdXBwb3J0cQB+Aq5zcQB+Amt0AAZPYmplY3RzcQB+Am9zcQB+AnJ1cQB+AnUAAAADc3EAfgJ3cQB+AuZzcQB+And0AARsYW5ncQB+AoBzcQB+Amt0AANBbnlxAH4C3HVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFfIKBKVHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD4vaG9tZS93aWxzb24vd29ya3NwYWNlMS9iYWNrZW5kL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHRhn348tFHCDVH9m93iWxMfGnJD
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuG3D5wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAABNzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAvRdOcdAAjY29udmVydFRvU3RyaW5nU2hvdWxkV3JhcHBlckZvclZlcmJzcQB+AAuurfY4dAAaY29udmVydFRvU3RyaW5nTXVzdFdyYXBwZXJzcQB+AAsSfH8idAAZY29udmVydFRvU3RyaW5nQ2FuV3JhcHBlcnNxAH4AC73Ne510AB5jb252ZXJ0VG9Xb3JkU3BlY1N0cmluZ1dyYXBwZXJzcQB+AAsfSssydAASY29udmVydFNjYWxhRnV0dXJlc3EAfgALIF0vGnQAImNvbnZlcnROdW1lcmljVG9QbHVzT3JNaW51c1dyYXBwZXJzcQB+AAsfket5dAAXY29udmVydFRvQW55TXVzdFdyYXBwZXJzcQB+AAuWaoBKdAASY29udmVydFRvRXF1YWxpemVyc3EAfgAL+cuSjnQAKHN1YmplY3RXaXRoQWZ0ZXJXb3JkUmVnaXN0cmF0aW9uRnVuY3Rpb25zcQB+AAv2bXMHdAAQZXhlY3V0aW9uQ29udGV4dHNxAH4ACx9nlUd0ABdjb252ZXJ0T3B0aW9uVG9WYWx1YWJsZXNxAH4AC3OjVjl0ABVjb252ZXJ0VG9SZWdleFdyYXBwZXJzcQB+AAv8vyH+dAADYXBwc3EAfgALb5jriXQAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC6wjeOx0AAxtYXRlcmlhbGl6ZXJzcQB+AAsAAPbrdAAhY29udmVydFRvU3RyaW5nTXVzdFdyYXBwZXJGb3JWZXJic3EAfgALkmBxGnQADnBhdGllbmNlQ29uZmlnc3EAfgAL2NXAbXQAK2NvbnZlcnRTeW1ib2xUb0hhdmVQcm9wZXJ0eU1hdGNoZXJHZW5lcmF0b3JzcQB+AAsz71wtdAAbc3ViamVjdFJlZ2lzdHJhdGlvbkZ1bmN0aW9udXEAfgAJAAABJ3NxAH4AC9iLopJ0AAtpbk9yZGVyT25seXNxAH4ACyUGf+l0ABFodHRwQ29uZmlndXJhdGlvbnNxAH4ACwMzuaV0AAZhc3NlcnRzcQB+AAvmgO+8dAAeUmVzdWx0T2ZTdGFydFdpdGhXb3JkRm9yU3RyaW5nc3EAfgALydiFUHQAB3N1Y2NlZWRzcQB+AAtR++bUdAASUGx1c09yTWludXNXcmFwcGVyc3EAfgALlfO7n3QABm5vdGlmeXNxAH4ACxywZR10AAthcHBsaWNhdGlvbnNxAH4AC+SpySR0AAxqc0FkanVzdG1lbnRzcQB+AAu3LEKedAAOdGVtcEZpbGVSZWFwZXJzcQB+AAtpLVEudAAmbG93UHJpb3JpdHlDb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAtjo9AidAAHdW5hcHBseXNxAH4AC9rlPqZ0ABVXb3JkU3BlY1N0cmluZ1dyYXBwZXJzcQB+AAtU0lgZdAAFcmVnZXhzcQB+AAs74oGFdAAGQW5Xb3Jkc3EAfgALQUOg6HQAB2N1cnJpZWRzcQB+AAuabfY5dAAQQXNzZXJ0aW9uc0hlbHBlcnNxAH4AC5WMWa10AAZjYW5jZWxzcQB+AAvge3ypdAARZXhlY3V0ZSRkZWZhdWx0JDJzcQB+AAtPYLyGdAAJaW50ZXJjZXB0c3EAfgALDDikWnQADnJlcXVlc3RGYWN0b3J5c3EAfgALz5j/3XQABGZhaWxzcQB+AAv1NEv8dAAEbmFtZXNxAH4AC5xGZPx0AAJpbnNxAH4AC0XaVeF0ABxIYXZlUHJvcGVydHlNYXRjaGVyR2VuZXJhdG9yc3EAfgALlyFApXQABUFXb3Jkc3EAfgAL0iPVHnQABGhhdmVzcQB+AAsKdd4odAAUYXNzZXJ0RG9lc05vdENvbXBpbGVzcQB+AAs7euXtdAARZXhlY3V0ZSRkZWZhdWx0JDRzcQB+AAvYdLhDdAAiUmVzdWx0T2ZDb250YWluV29yZEZvckNvbGxlY3RlZEFueXNxAH4AC3XYjLV0AA1maWxlTWltZVR5cGVzc3EAfgALFTHt1nQAAmlzc3EAfgALUKbRf3QAB2V4ZWN1dGVzcQB+AAsgSZYWdAAEd2FpdHNxAH4ACzyA1XN0AA5EZXRlcm1pbmVkV29yZHNxAH4AC9LZnDV0AAt0ZXN0RGF0YUZvcnNxAH4ACyavYCx0ABNjcmVhdGVDYXRjaFJlcG9ydGVyc3EAfgALlD8cjHQAAjw9c3EAfgALjy1UPHQAFGRlZmF1bHRBY3Rpb25CdWlsZGVyc3EAfgALYyOwKXQACXN0eWxlTmFtZXNxAH4ACxyhMIl0AA9mYWtlQXBwbGljYXRpb25zcQB+AAs9oL2sdAAVamF2YUNvbnRleHRDb21wb25lbnRzc3EAfgALCR4qB3QADWxlZnRTaWRlVmFsdWVzcQB+AAvuA1yPdAATYXRMZWFzdE9uZUVsZW1lbnRPZnNxAH4AC2TLvwJ0AAtodHRwRmlsdGVyc3NxAH4AC7a3xDx0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC78n2C50AA0kYXNJbnN0YW5jZU9mc3EAfgAL3j5NfnQABWVtcHR5c3EAfgALDQ8CV3QACXN0YXJ0V2l0aHNxAH4ACwsBi+50AARzaXplc3EAfgALMyyjRnQAEWV4ZWN1dGUkZGVmYXVsdCQzc3EAfgAL2gYwMnQACmlzQ2FuY2VsZWRzcQB+AAurDT7bdAAUUmVzdWx0T2ZDb2xsZWN0ZWRBbnlzcQB+AAv76sP0dAANYWxsRWxlbWVudHNPZnNxAH4ACwUSQiV0AAVleGlzdHNxAH4AC+Qs7N50AAlBZnRlcldvcmRzcQB+AAulyb7UdAAQPGluaXQ+JGRlZmF1bHQkMXNxAH4AC+25/tt0AA9jc3JmVG9rZW5TaWduZXJzcQB+AAsKWwqmdAAJY29uZmlnTWFwc3EAfgALpFJ6snQADHByb2R1Y3RBcml0eXNxAH4AC+QpBR90AAlWYWx1ZVdvcmRzcQB+AAs94/CpdAAGZXF1YWxzc3EAfgALaaJjqXQADGF0TGVhc3RPbmVPZnNxAH4AC27HqiN0ABFkZWZhdWx0Qm9keVBhcnNlcnNxAH4AC7zhiC50AAdhdExlYXN0c3EAfgALVGSDknQACHRocm93bkJ5c3EAfgALTFqOTnQAC2FjdG9yU3lzdGVtc3EAfgALAmHodXQALGNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnZlcnNpb25Db25zdHJhaW50c3EAfgALvwA/EXQAD2RlZmF1bHRFcXVhbGl0eXNxAH4ACzrIwzN0ACJjb252ZXJ0RXF1aXZhbGVuY2VUb0FUb0JDb25zdHJhaW50c3EAfgALMtN5p3QAHFJlc3VsdE9mRW5kV2l0aFdvcmRGb3JTdHJpbmdzcQB+AAs+4cvIdAAEbXVzdHNxAH4ACxz4TuF0ABJodHRwUmVxdWVzdEhhbmRsZXJzcQB+AAuDHqFZdAADYWxsc3EAfgALNTETlnQABHRhZ3NzcQB+AAsdNDcDdAAMYXNJbnN0YW5jZU9mc3EAfgALH6gdv3QAB2NvbnRleHRzcQB+AAsKLcp+dAABPHNxAH4AC8wp6AZ0AAVhbGVydHNxAH4ACy2p/nl0AAdpbk9yZGVyc3EAfgALAms3sXQACnByZXR0aWZpZXJzcQB+AAuNawtHdAADcnVuc3EAfgAL94NFbXQAEURlY2lkZWRCeUVxdWFsaXR5c3EAfgALcxGZKXQABWV2ZXJ5c3EAfgALEfwdLHQABnNjb3Blc3NxAH4AC8ma1bR0AANwb3NzcQB+AAs07uitdAAKd2l0aEdyb3Vwc3NxAH4AC8WWLCh0AAxzeW5jaHJvbml6ZWRzcQB+AAuDPM9vdAACaXRzcQB+AAsibWyGdAAHS2V5V29yZHNxAH4ACxqMSaZ0ABF0aGVTYW1lRWxlbWVudHNBc3NxAH4ACzS+QP90AA5hc3NlcnRDb21waWxlc3NxAH4ACxnD9Vt0AApkZXRlcm1pbmVkc3EAfgALgh9d4XQAAWFzcQB+AAsPXKiQdAAMYXNzZXJ0VGhyb3dzc3EAfgALdHBMG3QAC3dlYkNvbW1hbmRzc3EAfgALo9wKenQADmxlZnRTaWRlU3RyaW5nc3EAfgALRYktTHQADSRpc0luc3RhbmNlT2ZzcQB+AAsReV6gdAAEdHJhcHNxAH4ACytPTqd0ABV0ZXN0RGF0YUZvciRkZWZhdWx0JDJzcQB+AAsZ1u8SdAAMYXNzZXJ0UmVzdWx0c3EAfgALeaXYRHQAHlJlc3VsdE9mTm90V29yZEZvckNvbGxlY3RlZEFueXNxAH4AC4K+o3V0AAI+PXNxAH4AC0g1UQ50AAxvbmVFbGVtZW50T2ZzcQB+AAsn4ymKdAAGdHVwbGVkc3EAfgALKl4BSnQAFGNvbnRyb2xsZXJDb21wb25lbnRzc3EAfgALvi9vU3QABWxhbmdzc3EAfgALYAZh0nQAFGFwcGxpY2F0aW9uTGlmZWN5Y2xlc3EAfgALosbbbHQAF1N0cmluZ0NhbldyYXBwZXJGb3JWZXJic3EAfgAL9y+6D3QABHRleHRzcQB+AAsws6LGdAAlUmVzdWx0T2ZJbmNsdWRlV29yZEZvckNvbGxlY3RlZFN0cmluZ3NxAH4AC8DPYJJ0ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb252ZXJzaW9uQ29uc3RyYWludHNxAH4ACxlfyFt0AAhjYW5FcXVhbHNxAH4AC2BjrHt0AAdjb250YWluc3EAfgALd0NkS3QAEVRlc3RBcHBDb21wb25lbnRzc3EAfgAL8IK1T3QABHRoZXlzcQB+AAuW5XxzdAAHY29tcGlsZXNxAH4ACwFUHdF0ABFleGVjdXRlJGRlZmF1bHQkN3NxAH4AC5RpijJ0AAdleGFjdGx5c3EAfgALCicdm3QAEXRoZVNhbWVJbnN0YW5jZUFzc3EAfgALEhWYinQADXByb2R1Y3RQcmVmaXhzcQB+AAvAer7mdAAnUmVzdWx0T2ZTdGFydFdpdGhXb3JkRm9yQ29sbGVjdGVkU3RyaW5nc3EAfgALoNkwUHQAEWluT3JkZXJFbGVtZW50c09mc3EAfgALXZA4XHQAC0RlY2lkZWRXb3Jkc3EAfgALFlwgtHQAFXR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4AC1RjTYt0AAMhPT1zcQB+AAvYHOGFdAALZnV0dXJlVmFsdWVzcQB+AAtzE5ugdAAGYXRNb3N0c3EAfgAL+LVo83QABGluZm9zcQB+AAvG0wh+dAALbm9FeGNlcHRpb25zcQB+AAuFiHMAdAAPZnV0dXJlVmFsdWVJbXBsc3EAfgALeCllf3QACW5vdGlmeUFsbHNxAH4AC09ZGXF0AAR0aGF0c3EAfgALXmSBbHQACmNvbXBvbmVudHNzcQB+AAt9X4J/dAAKc3RhY2tEZXB0aHNxAH4AC7YAkZF0AAt3aXRoRml4dHVyZXNxAH4AC6mo/j10AAltdXN0RXF1YWxzcQB+AAtX5nurdAAHcnVuVGVzdHNxAH4AC23A7Hp0AB1SZXN1bHRPZkJlV29yZEZvckNvbGxlY3RlZEFueXNxAH4AC5OJZLR0AANrZXlzcQB+AAseb9bCdAAMaXNJbnN0YW5jZU9mc3EAfgALT1Ea6nQACHdpdGhDbHVlc3EAfgALe2n6CnQAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAs4h+W+dAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAt/7XHLdAAFd3NVcmxzcQB+AAvP95qudAAIVmFsdWFibGVzcQB+AAuCKYUvdAAIdGFnZ2VkQXNzcQB+AAtQENZydAAPYXNzZXJ0VHlwZUVycm9yc3EAfgALP4j5+3QAJVJlc3VsdE9mRW5kV2l0aFdvcmRGb3JDb2xsZWN0ZWRTdHJpbmdzcQB+AAsvGsIQdAAGbWFya3Vwc3EAfgALnqI0snQACGluamVjdG9yc3EAfgALq1SMV3QACGxlZnRTaWRlc3EAfgALtNw8KnQABjxpbml0PnNxAH4AC0NLBSV0AAttYWNyb0Fzc3VtZXNxAH4AC5sFa2R0AA9ydW5OZXN0ZWRTdWl0ZXNzcQB+AAuhgdZ8dAAIaW50ZXJ2YWxzcQB+AAveSBRNdAAZUmVzdWx0T2ZIYXZlV29yZEZvckV4dGVudHNxAH4AC5XFcF10AANjYW5zcQB+AAuE9igVdAAPYXBwbHkkZGVmYXVsdCQyc3EAfgALxrSmGHQABWJlaW5nc3EAfgALFOslUXQABWVxdWFsc3EAfgALoGGe93QABkl0V29yZHNxAH4AC8PvCbd0AAhhcmVFcXVhbHNxAH4AC08x1U10AAZub25lT2ZzcQB+AAvZQVjxdAAFYXBwbHlzcQB+AAvSqzzpdAAJd2l0aEdyb3Vwc3EAfgALoHz6S3QADndlYXRoZXJTZXJ2aWNlc3EAfgALS/If13QABWFmdGVyc3EAfgALrU45cnQABnNjYWxlZHNxAH4AC4OBGQZ0AAlFcXVhbGl6ZXJzcQB+AAsg2aw3dAAKYWZ0ZXJCZWluZ3NxAH4AC5d6fsh0ACJSZXN1bHRPZlRhZ2dlZEFzSW52b2NhdGlvbk9uU3RyaW5nc3EAfgALrLGB93QAB211c3ROb3RzcQB+AAv1O3KIdAAbbmV3QXNzZXJ0aW9uRmFpbGVkRXhjZXB0aW9uc3EAfgALLjBpUnQABXBhcnNlc3EAfgAL8dzsvXQABG5vdGVzcQB+AAsg4ukVdAACPT1zcQB+AAv7/UEadAACYnlzcQB+AAvlToZAdAAGc29ydGVkc3EAfgAL2Z+yL3QABm11c3RCZXNxAH4AC0hfVOd0AApmdWxseU1hdGNoc3EAfgALLP0NvXQABWNsb25lc3EAfgALUmBunXQAD3BsYXlCb2R5UGFyc2Vyc3NxAH4AC+kbLKF0AAZzaG91bGRzcQB+AAvJFWW7dAAObmV3QXBwbGljYXRpb25zcQB+AAvNWY/QdAAQaHR0cEVycm9ySGFuZGxlcnNxAH4ACwnWUcl0ABdEZXRlcm1pbmVkQnlFcXVpdmFsZW5jZXNxAH4AC8lweyJ0AANub3RzcQB+AAt98eTwdAALZWl0aGVyVmFsdWVzcQB+AAtx/rd3dAALZW52aXJvbm1lbnRzcQB+AAuSURa6dAAfUmVzdWx0T2ZCZVdvcmRGb3JDb2xsZWN0ZWRBcnJheXNxAH4AC2j20qF0AAlkZWZpbmVkQXRzcQB+AAvXLsfRdAAMbmVzdGVkU3VpdGVzc3EAfgAL/3snc3QABmFzc3VtZXNxAH4AC3eCBZF0AAYkaW5pdCRzcQB+AAvfi2w+dAAHZGVmaW5lZHNxAH4ACyOAEL90AA1jb25maWd1cmF0aW9uc3EAfgALb9AmKXQAIGxvd1ByaW9yaXR5VHlwZUNoZWNrZWRDb25zdHJhaW50c3EAfgALW+h5jnQAEldlYXRoZXJTZXJ2aWNlU3BlY3NxAH4ACxfXd8l0AAxzb3VyY2VNYXBwZXJzcQB+AAtQ5tkLdAAHaW5jbHVkZXNxAH4AC7ibQRp0AAhUaGV5V29yZHNxAH4AC1PPFjZ0AAxyZWdpc3RlclRlc3RzcQB+AAvryg8NdAAJdHlwZUNoZWNrc3EAfgAL7Mu9THQAEWV4ZWN1dGUkZGVmYXVsdCQ1c3EAfgALiCSUNXQABGNvcHlzcQB+AAvO1/p/dAAPYXBwbHkkZGVmYXVsdCQxc3EAfgALMAkSIHQAC21lc3NhZ2VzQXBpc3EAfgALyjyi0XQAAz09PXNxAH4AC9ZDuVl0AA90ZW1wRmlsZUNyZWF0b3JzcQB+AAvAsaWQdAAYbmV3VGVzdENhbmNlbGVkRXhjZXB0aW9uc3EAfgALje5gdnQAB21lc3NhZ2VzcQB+AAs0KNJIdAAGd3NDYWxsc3EAfgALQ7txmHQACHRvU3RyaW5nc3EAfgAL5/+RmnQACWFmdGVyV29yZHNxAH4ACwe3z9l0AAV3aGljaHNxAH4ACyJZuXB0AAl0ZXN0TmFtZXNzcQB+AAsmEKVddAAPeWVPbGRlVGVzdE5hbWVzc3EAfgALiKwyVnQADGNvb2tpZVNpZ25lcnNxAH4AC57g93F0AAJhbnNxAH4AC7A678F0AAZsZW5ndGhzcQB+AAsoajPmdAAYU3RyaW5nTXVzdFdyYXBwZXJGb3JWZXJic3EAfgALfE2x4nQACXdoZW5SZWFkeXNxAH4AC8ou9gh0ABFleGVjdXRlJGRlZmF1bHQkMXNxAH4AC8VyZx50AAJiZXNxAH4AC3mOcPl0AAIhPXNxAH4ACy2Nh2F0ACJSZXN1bHRPZkhhdmVXb3JkRm9yQ29sbGVjdGVkRXh0ZW50c3EAfgALQoT8DXQAH1Jlc3VsdE9mRnVsbHlNYXRjaFdvcmRGb3JTdHJpbmdzcQB+AAtnUcx7dAAMbWF0Y2hQYXR0ZXJuc3EAfgALZvFvGXQACGdldENsYXNzc3EAfgALCO1i63QAEVN0cmluZ011c3RXcmFwcGVyc3EAfgALjiI0EXQAE3JlZ2lzdGVySWdub3JlZFRlc3RzcQB+AAsVSthHdAAGYmVoYXZlc3EAfgALcOKTw3QADmNvcHkkZGVmYXVsdCQxc3EAfgALPuy/AHQACHJ1blRlc3Rzc3EAfgAL98U50XQAEXBlbmRpbmdVbnRpbEZpeGVkc3EAfgALbeBg2HQAEmF0TW9zdE9uZUVsZW1lbnRPZnNxAH4AC8p5Qxx0ABh0aGVTYW1lRWxlbWVudHNJbk9yZGVyQXNzcQB+AAsgddnWdAAXVGhlU2FtZUluc3RhbmNlQXNQaHJhc2VzcQB+AAvsmjkHdAANYXJlRXF1aXZhbGVudHNxAH4AC+ecVSd0AAdiZXR3ZWVuc3EAfgALDQGCf3QAB2RlY2lkZWRzcQB+AAtWbj+fdAAUUmVzdWx0T2ZCZVdvcmRGb3JBbnlzcQB+AAu8taoodAARZXhwZWN0ZWRUZXN0Q291bnRzcQB+AAs2pMyddAAHZW5kV2l0aHNxAH4AC0BaFP10AAxub0VsZW1lbnRzT2ZzcQB+AAvWOglOdAAIcmVydW5uZXJzcQB+AAvX49eAdAANRnV0dXJlQ29uY2VwdHNxAH4AC2kYUBt0AAlSZWdleFdvcmRzcQB+AAtZUH7cdAAMVGhlQWZ0ZXJXb3Jkc3EAfgAL3SmplXQAImNvbnZlcnRFcXVpdmFsZW5jZVRvQlRvQUNvbnN0cmFpbnRzcQB+AAvcQwWHdAAId3NDbGllbnRzcQB+AAtoCcaWdAAFb25lT2ZzcQB+AAtmOEcjdAACbmVzcQB+AAtKQpqudAANaXNSZWFkeVdpdGhpbnNxAH4ACxA5HX10AA5BbnlNdXN0V3JhcHBlcnNxAH4AC+nRk1x0AAlpc0V4cGlyZWRzcQB+AAsMBlKgdAAHdGltZW91dHNxAH4AC8H2p3t0AAJub3NxAH4ACxsnHyp0AChSZXN1bHRPZkZ1bGx5TWF0Y2hXb3JkRm9yQ29sbGVjdGVkU3RyaW5nc3EAfgALbFGURXQABnJvdXRlcnNxAH4AC+EEjG50AAtkb0NvbGxlY3RlZHNxAH4AC898VvN0ABFDaGVja2luZ0VxdWFsaXplcnNxAH4ACxetwjN0AAh3cml0YWJsZXNxAH4AC77VWzl0AAdwZW5kaW5nc3EAfgALXyTS53QABXZhbHVlc3EAfgAL3WGg93QABHdoZW5zcQB+AAtkW29UdAAGaWdub3Jlc3EAfgALfhfFWnQABkFjdGlvbnNxAH4AC20OokN0ABxSZXN1bHRPZkluY2x1ZGVXb3JkRm9yU3RyaW5nc3EAfgALZeXz4XQAC21hY3JvQXNzZXJ0c3EAfgALZCjThXQAEDxpbml0PiRkZWZhdWx0JDJzcQB+AAv2qGK0dAACZXFzcQB+AAsTojfedAAaY29udmVydFRvQ2hlY2tpbmdFcXVhbGl6ZXJzcQB+AAsqQWf6dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALlREu4XQAAm9mc3EAfgALWJRDpnQAAistc3EAfgAL5GCfVnQAD3NwYW5TY2FsZUZhY3RvcnNxAH4AC/UQv4J0AAlOb0FyZ1Rlc3RzcQB+AAurNvZGdAABPnNxAH4AC4ZubI10AAhyZWFkYWJsZXNxAH4ACx/tfpB0AAIjI3NxAH4AC/QBnvV0AA5QYXRpZW5jZUNvbmZpZ3NxAH4AC0UI7jt0ABpTdHJpbmdTaG91bGRXcmFwcGVyRm9yVmVyYnNxAH4ACyRluxt0AAhmaW5hbGl6ZXNxAH4AC8f8R7x0ABtjb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAu0HPSpdAALYXRNb3N0T25lT2ZzcQB+AAv+AlyBdAAFYWxsT2ZzcQB+AAtvatIfdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAvW1dqsdAAIaGFzaENvZGVzcQB+AAszUc0ldAAHc3VpdGVJZHNxAH4AC1dhZD90AAlzdWl0ZU5hbWVzcQB+AAta80q5dAAMUmVnZXhXcmFwcGVyc3EAfgALiEEia3QAA3RoZXNxAH4ACyaZto50AARvbmx5c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ci3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgEZdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AqJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ci0wACWluaGVyaXRlZHEAfgKLTAAHcGFyZW50c3EAfgKLeHEAfgKnc3EAfgKidXEAfgKGAAAAAHNxAH4ConVxAH4ChgAAAABzcQB+AqJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAB3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AqZ0AA9BaGNXU0NvbXBvbmVudHNzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AqZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAZzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+Ar90AANhcGlzcQB+Ar90AARsaWJzc3EAfgK/dAACd3NzcQB+Ar90AANhaGNzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4CwHNxAH4Cs3QAF05vSHR0cEZpbHRlcnNDb21wb25lbnRzc3EAfgK3c3EAfgK6dXEAfgK9AAAAA3NxAH4Cv3QABHBsYXlzcQB+Ar9xAH4CxHEAfgLMc3EAfgKzdAAcQnVpbHRJbkNvbXBvbmVudHNGcm9tQ29udGV4dHEAfgLPc3EAfgKzdAARQnVpbHRJbkNvbXBvbmVudHNxAH4Cz3NxAH4Cs3QADkkxOG5Db21wb25lbnRzc3EAfgK3c3EAfgK6dXEAfgK9AAAABHNxAH4Cv3QABHBsYXlzcQB+Ar9xAH4CxHNxAH4Cv3QABGkxOG5xAH4CzHNxAH4Cs3QABk9iamVjdHNxAH4Ct3NxAH4CunVxAH4CvQAAAANzcQB+Ar90AARqYXZhc3EAfgK/dAAEbGFuZ3EAfgLMc3EAfgKzdAADQW55c3EAfgK3c3EAfgK6dXEAfgK9AAAAAnNxAH4Cv3QABXNjYWxhcQB+AsxzcQB+AohxAH4ClXVxAH4ClgAAAABzcQB+ApgAcQB+AcF1cQB+ApoAAAAAcQB+Ap51cQB+AqAAAAACdAAQc2NhbGEuZGVwcmVjYXRlZHQAJ3NjYWxhLnJlZmxlY3QubWFjcm9zLmludGVybmFsLm1hY3JvSW1wbHNxAH4ConEAfgKoc3EAfgKic3EAfgKqc3EAfgKidXEAfgKGAAAAAHNxAH4ConVxAH4ChgAAAABzcQB+AqJ1cQB+ArEAAAAlc3EAfgKzdAAMU2NhbGFGdXR1cmVzc3EAfgK3c3EAfgK6dXEAfgK9AAAABHNxAH4Cv3QAA29yZ3NxAH4Cv3QACXNjYWxhdGVzdHNxAH4Cv3QACmNvbmN1cnJlbnRxAH4CzHNxAH4Cs3QAB0Z1dHVyZXNxAH4DBXNxAH4Cs3QAFVBhdGllbmNlQ29uZmlndXJhdGlvbnEAfgMFc3EAfgKzdAAdQWJzdHJhY3RQYXRpZW5jZUNvbmZpZ3VyYXRpb25xAH4DBXNxAH4Cs3QAD1NjYWxlZFRpbWVTcGFuc3EAfgMFc3EAfgKzdAAcT25lQXBwUGVyU3VpdGVXaXRoQ29tcG9uZW50c3NxAH4Ct3NxAH4CunVxAH4CvQAAAAVzcQB+Ar90AANvcmdzcQB+Ar90AA1zY2FsYXRlc3RwbHVzc3EAfgK/dAAEcGxheXNxAH4Cv3QACmNvbXBvbmVudHNxAH4CzHNxAH4Cs3QAFkZha2VBcHBsaWNhdGlvbkZhY3RvcnlzcQB+ArdzcQB+Arp1cQB+Ar0AAAAEc3EAfgK/dAADb3Jnc3EAfgK/dAANc2NhbGF0ZXN0cGx1c3NxAH4Cv3QABHBsYXlxAH4CzHNxAH4Cs3QAGVdpdGhBcHBsaWNhdGlvbkNvbXBvbmVudHNxAH4DGHNxAH4Cs3QAEkJhc2VPbmVBcHBQZXJTdWl0ZXEAfgMlc3EAfgKzdAAOVGVzdFN1aXRlTWl4aW5zcQB+ArdzcQB+Arp1cQB+Ar0AAAADc3EAfgK/dAADb3Jnc3EAfgK/dAAJc2NhbGF0ZXN0cQB+AsxzcQB+ArN0AApTdWl0ZU1peGlucQB+AzRzcQB+ArN0AAhQbGF5U3BlY3EAfgMlc3EAfgKzdAARV3NTY2FsYVRlc3RDbGllbnRxAH4DJXNxAH4Cs3QADE9wdGlvblZhbHVlc3EAfgM0c3EAfgKzdAAMTXVzdE1hdGNoZXJzcQB+AzRzcQB+ArN0AApFeHBsaWNpdGx5c3EAfgK3c3EAfgK6dXEAfgK9AAAAA3NxAH4Cv3QAA29yZ3NxAH4Cv3QACXNjYWxhY3RpY3EAfgLMc3EAfgKzdAAMTWF0Y2hlcldvcmRzc3EAfgK3c3EAfgK6dXEAfgK9AAAABHNxAH4Cv3QAA29yZ3NxAH4Cv3QACXNjYWxhdGVzdHNxAH4Cv3QABXdvcmRzcQB+AsxzcQB+ArN0AAlUb2xlcmFuY2VxAH4DR3NxAH4Cs3QACFdvcmRTcGVjcQB+AzRzcQB+ArN0AAxXb3JkU3BlY0xpa2VxAH4DNHNxAH4Cs3QAC0RvY3VtZW50aW5ncQB+AzRzcQB+ArN0AAhBbGVydGluZ3EAfgM0c3EAfgKzdAAJTm90aWZ5aW5ncQB+AzRzcQB+ArN0AAlJbmZvcm1pbmdxAH4DNHNxAH4Cs3QAB0NhblZlcmJxAH4DUHNxAH4Cs3QACE11c3RWZXJicQB+A1BzcQB+ArN0AApTaG91bGRWZXJicQB+A1BzcQB+ArN0ABBUZXN0UmVnaXN0cmF0aW9ucQB+AzRzcQB+ArN0AAlUZXN0U3VpdGVxAH4DNHNxAH4Cs3QABVN1aXRlcQB+AzRzcQB+ArN0AAxTZXJpYWxpemFibGVzcQB+ArdzcQB+Arp1cQB+Ar0AAAACc3EAfgK/cQB+AvJxAH4CzHNxAH4Cs3EAfgN0c3EAfgK3c3EAfgK6dXEAfgK9AAAAA3NxAH4Cv3EAfgLpc3EAfgK/dAACaW9xAH4CzHNxAH4Cs3QACkFzc2VydGlvbnNxAH4DNHNxAH4Cs3QADFRyaXBsZUVxdWFsc3EAfgNHc3EAfgKzdAATVHJpcGxlRXF1YWxzU3VwcG9ydHEAfgNHc3EAfgKzcQB+AuRzcQB+ArdzcQB+Arp1cQB+Ar0AAAADc3EAfgK/cQB+AulzcQB+Ar9xAH4C63EAfgLMc3EAfgKzcQB+Au1xAH4DdXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFfIKBKVHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD4vaG9tZS93aWxzb24vd29ya3NwYWNlMS9iYWNrZW5kL3RhcmdldC9zY2FsYS0yLjEyL3Rlc3QtY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK9l+aX5dsCcyeO8AIEq+6mJCHyz
+external apis:
+3 items
+model.SunInfo -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwbFBIvwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCnon4sdAAGd3JpdGVzdXEAfgAJAAAAInNxAH4AC3vi6tN0AAZub3RpZnlzcQB+AAtoQrbpdAAHdW5hcHBseXNxAH4AC4RDPMF0AAR3YWl0c3EAfgALdopGG3QADmNvcHkkZGVmYXVsdCQyc3EAfgALjz+hWHQADSRhc0luc3RhbmNlT2ZzcQB+AAuW0gF+dAAMcHJvZHVjdEFyaXR5c3EAfgALSqqDmnQABmVxdWFsc3NxAH4AC2iYrtd0AAxhc0luc3RhbmNlT2ZzcQB+AAuQibqydAAMc3luY2hyb25pemVkc3EAfgALUyyACnQADSRpc0luc3RhbmNlT2ZzcQB+AAsAasG+dAAIY2FuRXF1YWxzcQB+AAtJsnnTdAAHU3VuSW5mb3NxAH4AC4TkKMl0AA1wcm9kdWN0UHJlZml4c3EAfgALV9P8AHQACW5vdGlmeUFsbHNxAH4ACyEvCsZ0AAxpc0luc3RhbmNlT2ZzcQB+AAvUnVtUdAAGPGluaXQ+c3EAfgALfgMYsnQABWFwcGx5c3EAfgALG8rc3HQAAj09c3EAfgALfQGbHHQABWNsb25lc3EAfgALe+Muj3QAB3N1bnJpc2VzcQB+AAtik+1bdAAGJGluaXQkc3EAfgALXfdH03QABGNvcHlzcQB+AAtLn60vdAAIdG9TdHJpbmdzcQB+AAvgpeq5dAAGc3Vuc2V0c3EAfgAL4g+ntHQAAiE9c3EAfgALs/jjEnQACGdldENsYXNzc3EAfgALi8UIIHQADmNvcHkkZGVmYXVsdCQxc3EAfgALwe2t5nQAAm5lc3EAfgALWvHOgnQAAmVxc3EAfgALa0SpYXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ACxPyWuR0AAIjI3NxAH4AC2MkDEx0AAhmaW5hbGl6ZXNxAH4AC0/aBBZ0AA5wcm9kdWN0RWxlbWVudHNxAH4ACwZ6waR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AA1tb2RlbC5TdW5JbmZvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AXUwACWluaGVyaXRlZHEAfgBdTAAHcGFyZW50c3EAfgBdeHEAfgB6c3EAfgB1dXEAfgBYAAAAAHNxAH4AdXVxAH4AWAAAAABzcQB+AHV1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHl0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJNzcQB+AIZxAH4AiXNxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJ0AARqYXZhc3EAfgCSdAACaW9xAH4Al3NxAH4AhnQAB1Byb2R1Y3RxAH4AjHNxAH4AhnQABkVxdWFsc3EAfgCMc3EAfgCGdAAGT2JqZWN0c3EAfgCKc3EAfgCNdXEAfgCQAAAAA3NxAH4AknEAfgCdc3EAfgCSdAAEbGFuZ3EAfgCXc3EAfgCGdAADQW55cQB+AIxzcQB+AFpxAH4AZ3VxAH4AaAAAAABzcQB+AGoAdAANbW9kZWwuU3VuSW5mb3VxAH4AbQAAAAB+cQB+AG90AAZNb2R1bGV1cQB+AHMAAAAAc3EAfgB1cQB+AHtzcQB+AHVzcQB+AH1zcQB+AHV1cQB+AFgAAAAAc3EAfgB1dXEAfgBYAAAAAHNxAH4AdXVxAH4AhAAAAARzcQB+AIZxAH4AiXNxAH4AinNxAH4AjXVxAH4AkAAAAAJzcQB+AJJxAH4AlXEAfgCXc3EAfgCGcQB+AIlzcQB+AIpzcQB+AI11cQB+AJAAAAADc3EAfgCScQB+AJ1zcQB+AJJ0AAJpb3EAfgCXc3EAfgCGcQB+AKVzcQB+AIpzcQB+AI11cQB+AJAAAAADc3EAfgCScQB+AJ1zcQB+AJJxAH4Aq3EAfgCXc3EAfgCGcQB+AK1xAH4AwHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABW1vZGVsc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFfIJrwpXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADkvaG9tZS93aWxzb24vd29ya3NwYWNlMS9iYWNrZW5kL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTHn3S1qLfZNOqG0pm5Fa/hw0375g==
+services.SunService -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw7NwXZgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwVfx3iXQABm5vdGlmeXNxAH4ADPXyaB50AAR3YWl0c3EAfgAMNJSlrHQADSRhc0luc3RhbmNlT2ZzcQB+AAyXVJQDdAAGZXF1YWxzc3EAfgAMrXAqZnQADGFzSW5zdGFuY2VPZnNxAH4ADCESO5N0AAxzeW5jaHJvbml6ZWRzcQB+AAwzmbcAdAANJGlzSW5zdGFuY2VPZnNxAH4ADKLo/310AAlub3RpZnlBbGxzcQB+AAxtKFkRdAAMaXNJbnN0YW5jZU9mc3EAfgAMutShZXQABjxpbml0PnNxAH4ADOyq4O10AAI9PXNxAH4ADEzik9Z0AAVjbG9uZXNxAH4ADP+VrMx0AApTdW5TZXJ2aWNlc3EAfgAMYZd7f3QACHRvU3RyaW5nc3EAfgAMo48Dj3QAAiE9c3EAfgAM/PBCz3QACGdldENsYXNzc3EAfgAM8yIXr3QAAm5lc3EAfgAMKLCrnXQACmdldFN1bkluZm9zcQB+AAxQibNWdAACZXFzcQB+AAwZz3AWdAACIyNzcQB+AAy08fIbdAAIZmluYWxpemVzcQB+AAxKYLAsdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAATc2VydmljZXMuU3VuU2VydmljZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhzZXJ2aWNlc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXyCa8KV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L2hvbWUvd2lsc29uL3dvcmtzcGFjZTEvYmFja2VuZC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUdUPcbtWp6SD4Gjz1wxVbJsnQB0Y=
+services.WeatherService -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwYl/yeAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwzSgD+3QABm5vdGlmeXNxAH4ADHjpvnx0AAR3YWl0c3EAfgAMYlO+BHQADSRhc0luc3RhbmNlT2ZzcQB+AAwg16HYdAAGZXF1YWxzc3EAfgAMHNp1XnQADGFzSW5zdGFuY2VPZnNxAH4ADOEocDp0AAxzeW5jaHJvbml6ZWRzcQB+AAzXxha7dAANJGlzSW5zdGFuY2VPZnNxAH4ADEOP7hx0AAlub3RpZnlBbGxzcQB+AAygNDmzdAAMaXNJbnN0YW5jZU9mc3EAfgAMDhI7Q3QABjxpbml0PnNxAH4ADCv65FN0AAI9PXNxAH4ADOwyujV0AAVjbG9uZXNxAH4ADB1EZlp0AA5nZXRUZW1wZXJhdHVyZXNxAH4ADJGKHHN0AAh0b1N0cmluZ3NxAH4ADD7xX+t0AAIhPXNxAH4ADHcBKqV0AAhnZXRDbGFzc3NxAH4ADMhHXDF0AA5XZWF0aGVyU2VydmljZXNxAH4ADPzXKB10AAJuZXNxAH4ADJxdj8Z0AAJlcXNxAH4ADL6E0dR0AAIjI3NxAH4ADJE2XHp0AAhmaW5hbGl6ZXNxAH4ADD9R8RB0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABdzZXJ2aWNlcy5XZWF0aGVyU2VydmljZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhzZXJ2aWNlc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXyCa8KV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L2hvbWUvd2lsc29uL3dvcmtzcGFjZTEvYmFja2VuZC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUFhPvCn96Vmz3/+hF7VC7abonzeE=
+source infos:
+2 items
+/home/wilson/workspace1/backend/test/ApplicationSpec.scala -> 
+AAAAAAAAAAA=
+/home/wilson/workspace1/backend/test/WeatherServiceSpec.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXyCGCNZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL3dpbHNvbi93b3Jrc3BhY2UxL2JhY2tlbmQvdGFyZ2V0L3NjYWxhLTIuMTIvdGVzdC1jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXyCgSlR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL3dpbHNvbi93b3Jrc3BhY2UxL2JhY2tlbmQvdGFyZ2V0L3NjYWxhLTIuMTIvdGVzdC1jbGFzc2VzdAABLw==

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wilson/1-MyProjects/casino-backend/conf/routes
-// @DATE:Sun Oct 15 15:41:54 IST 2017
+// @SOURCE:/home/wilson/workspace1/backend/conf/routes
+// @DATE:Sun Oct 15 17:39:11 IST 2017
 
 package controllers;
 

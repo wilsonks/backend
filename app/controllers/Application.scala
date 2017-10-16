@@ -17,14 +17,6 @@ import play.api.data.Forms._
 
 case class UserLoginData(username: String, password: String)
 
-//################################################################################################
-//Every controller must extend the play.api.mvc.BaseController trait, but it’s usually easier to
-//extend an abstract class called AbstractController.
-//The Action object is a DSL-like construct that helps define controller methods. Controller methods 
-//exposed as HTTP endpoints often return values of type play.api.mvc.Result , and this is exactly 
-//what the index method does. It simply takes a compiled Scala HTML template called index and returns 
-//it to the browser also specifying 200 OK as a response code.
-//################################################################################################
 class Application(components: ControllerComponents, sunService: SunService,
     weatherService: WeatherService,
     actorSystem: ActorSystem,

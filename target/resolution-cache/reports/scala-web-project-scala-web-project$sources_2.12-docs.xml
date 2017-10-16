@@ -6,8 +6,8 @@
 		module="scala-web-project$sources_2.12"
 		revision="1.0-SNAPSHOT"
 		conf="docs"
-		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, ensime-internal"
-		date="20171005231024"/>
+		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171015202016"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.12">
 			<revision name="2.6.1" status="release" pubdate="20170707053137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
@@ -83,7 +83,8 @@
 		</module>
 		<module organisation="org.ow2.asm" name="asm-util">
 			<revision name="5.0.3" status="release" pubdate="20140524140053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
-				<metadata-artifact status="no" details="" size="4402" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-util/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="http://tykherepo:8081/nexus/content/groups/public/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom"/>
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4134" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-util/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-5.0.3-sources.jar">
@@ -94,7 +95,8 @@
 		</module>
 		<module organisation="org.ow2.asm" name="asm-analysis">
 			<revision name="5.0.3" status="release" pubdate="20140524140023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
-				<metadata-artifact status="no" details="" size="4410" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="http://tykherepo:8081/nexus/content/groups/public/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom"/>
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4142" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-analysis/srcs/asm-analysis-5.0.3-sources.jar">
@@ -104,8 +106,9 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-tree">
-			<revision name="5.0.3" status="release" pubdate="20140524140043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
-				<metadata-artifact status="no" details="" size="4397" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-tree/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="http://tykherepo:8081/nexus/content/groups/public/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
+			<revision name="5.0.3" status="release" pubdate="20140524140043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4129" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-tree/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-5.0.3-sources.jar">
@@ -115,12 +118,13 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm">
-			<revision name="5.0.3" status="release" pubdate="20140524140012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
-				<metadata-artifact status="no" details="" size="3758" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="http://tykherepo:8081/nexus/content/groups/public/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+			<revision name="5.0.3" status="release" pubdate="20140524140012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3953" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/home/wilson/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar">
-						<origin-location is-local="false" location="http://tykherepo:8081/nexus/content/groups/public/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -204,18 +208,18 @@
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/wilson/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
-						<origin-location is-local="false" location="http://tykherepo:8081/nexus/content/groups/public/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="javax.transaction" name="jta">
-			<revision name="1.1" status="release" pubdate="20081027212721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
-				<metadata-artifact status="no" details="" size="2343" time="0" location="/home/wilson/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="file:/home/aravind/Documents/activator-1.0.13/repository/javax.transaction/jta/1.1/ivys/ivy.xml"/>
+			<revision name="1.1" status="release" pubdate="20081028065721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<metadata-artifact status="no" details="" size="2479" time="0" location="/home/wilson/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="/home/wilson/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar">
-						<origin-location is-local="false" location="http://tykherepo:8081/nexus/content/groups/public/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -257,8 +261,9 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106091535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
-				<metadata-artifact status="no" details="" size="10933" time="0" location="/home/wilson/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="file:/home/aravind/Documents/activator-dist-1.3.5/repository/commons-codec/commons-codec/1.10/ivys/ivy.xml"/>
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/home/wilson/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="commons-codec" type="jar" ext="jar" extra-classifier="" status="no" details="" size="284184" time="0" location="/home/wilson/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
@@ -280,13 +285,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
-			<revision name="1.0.6" status="release" pubdate="20170613192250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="1.0.6" status="release" pubdate="20161101195105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="3011" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
-						<origin-location is-local="false" location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -334,7 +339,7 @@
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3130" time="0" location="/home/wilson/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.0-sources.jar">
-						<origin-location is-local="false" location="http://tykherepo:8081/nexus/content/groups/public/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -354,7 +359,7 @@
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
 			<revision name="1.7.25" status="release" pubdate="20170316220729" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="5267" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom"/>
+				<metadata-artifact status="no" details="" size="5273" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23239" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.25-sources.jar">
@@ -510,7 +515,7 @@
 		<module organisation="org.slf4j" name="jul-to-slf4j">
 			<revision name="1.7.25" status="release" pubdate="20170316220746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="5254" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom"/>
+				<metadata-artifact status="no" details="" size="5260" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4872" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.25-sources.jar">
@@ -521,7 +526,8 @@
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
 			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
-				<metadata-artifact status="no" details="" size="5287" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/wilson/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
@@ -531,13 +537,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.12.2" status="release" pubdate="20170613192250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="2.12.2" status="release" pubdate="20170413134812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.pom"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="574818" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.2-sources.jar">
-						<origin-location is-local="false" location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -627,13 +633,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.2" status="release" pubdate="20170613192248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+			<revision name="2.12.2" status="release" pubdate="20170413134911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
 				<caller organisation="scala-web-project" name="scala-web-project$sources_2.12" conf="docs" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
 				<artifacts>
 					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990185" time="0" location="/home/wilson/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar">
-						<origin-location is-local="false" location="http://repo-desktop:8081/artifactory/proxy-maven/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
